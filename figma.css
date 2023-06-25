@@ -1,0 +1,69 @@
+:root {
+  --light-blue-color: #0065fe;
+  --darker-blue-color: #005ae2;
+  --deep-black-color: #141414;
+  --neutral-white: #fff;
+}
+
+/* Path: figma.css */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Path: figma.css */
+body {
+  background-color: #fff;
+  /*color: #fff;*/
+  font-family: "gilroy-bold", sans-serif;
+  /*font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;*/
+  margin: 0;
+  /*padding: 0;*/
+}
+
+.wrapper {
+  max-width: 1440px;
+  max-height: 1024px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* Path: figma.css */
+/*buttons*/
+.blueButton {
+  background-color: var(--light-blue-color);
+  color: var(--neutral-white);
+  cursor: pointer;
+  display: flex;
+  width: 142px;
+  height: 44px;
+  border-radius: 100px;
+  font-family: "Gilroy-Semibold", sans-serif;
+  font-size: 16px;
+  line-height: 12px;
+  padding: 12px 24px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
